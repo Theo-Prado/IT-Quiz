@@ -60,5 +60,9 @@ print()
 
 if points == 6:
   print("Congratulations, you won! You got all the questions right!")
+elif points => 4:
+  print("Good! You got",points,"/ 6 correct!")
+elif points == 3:
+  print("Median score. You got",points,"/ 6 correct!")
 else:
   print("You lost! You got",points,"/ 6 correct!")
