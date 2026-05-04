@@ -73,6 +73,13 @@ else:
 
 print()
 
+p7 = input("What is the process of reverting a system, database, or software application to a previous, stable state to undo errors, faulty updates, or undesirable changes?")
+if p7.lower() == "rollback"
+  points += 1
+  print("Correct! Points:",points,"/ 10")
+else:
+  print("Wrong! It is rollback.")
+
 if points == 10:
   print("Congratulations, you won! You got all the questions right!")
 elif points >= 6:
