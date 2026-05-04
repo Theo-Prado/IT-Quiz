@@ -80,6 +80,15 @@ if p7.lower() == "rollback"
 else:
   print("Wrong! It is rollback.")
 
+print()
+
+p7 = input("What is a distinctive attribute, aspect, or functionality of a product, system, or service that adds value, improves usability, or makes it unique?")
+if p7.lower() == "feature"
+  points += 1
+  print("Correct! Points:",points,"/ 10")
+else:
+  print("Wrong! It is feature.")
+
 if points == 10:
   print("Congratulations, you won! You got all the questions right!")
 elif points >= 6:
