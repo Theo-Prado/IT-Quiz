@@ -73,8 +73,8 @@ else:
 
 print()
 
-p7 = input("What is the process of reverting a system, database, or software application to a previous, stable state to undo errors, faulty updates, or undesirable changes?")
-if p7.lower() == "rollback"
+p8 = input("What is the process of reverting a system, database, or software application to a previous, stable state to undo errors, faulty updates, or undesirable changes?")
+if p8.lower() == "rollback"
   points += 1
   print("Correct! Points:",points,"/ 10")
 else:
@@ -82,12 +82,19 @@ else:
 
 print()
 
-p7 = input("What is a distinctive attribute, aspect, or functionality of a product, system, or service that adds value, improves usability, or makes it unique?")
-if p7.lower() == "feature"
+p9 = input("What is a distinctive attribute, aspect, or functionality of a product, system, or service that adds value, improves usability, or makes it unique?")
+if p9.lower() == "feature"
   points += 1
   print("Correct! Points:",points,"/ 10")
 else:
   print("Wrong! It is feature.")
+
+p10 = input("what is the most recommended language for automation?")
+if p10.lower() == "python"
+  points += 1
+  print("Correct! Points:",points,"/ 10")
+else:
+  print("Wrong! It is Python.")
 
 if points == 10:
   print("Congratulations, you won! You got all the questions right!")
@@ -97,4 +104,4 @@ elif points == 5:
   print("Median score. You got",points,"/ 10 correct!")
 else:
   print("You lost! You got",points,"/ 10 correct!")
-print(f"Thank you for playing, {name}!
+print(f"Thank you for playing, {name}!")
